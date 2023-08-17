@@ -1,0 +1,179 @@
+body {
+  padding: 64px 95px;
+  background-color: rgb(216, 219, 222);
+}
+
+.main {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  height: 2050px;
+  box-shadow: 1px 1px 20px 2px;
+}
+
+.first {
+  width: 30%;
+  padding-top: 144px;
+  background-color: #fff;
+}
+.first .child1 {
+  background-color: rgb(198, 162, 114);
+  width: 100%;
+  height: 99.5%;
+  position: relative;
+}
+.child1 img {
+  width: 65%;
+  border-radius: 49%;
+  position: absolute;
+  top: -119px;
+  left: 53px;
+}
+.name {
+  position: absolute;
+  top: 160px;
+  left: 90px;
+  font-size: 36px;
+}
+.name p {
+  font-size: 16px;
+  padding-left: 18px;
+}
+.contact {
+  position: absolute;
+  top: 250px;
+  left: 10%;
+  text-align: center;
+  margin-top: 40px;
+}
+.contact h1 {
+  text-transform: capitalize;
+}
+.skills {
+  position: absolute;
+  top: 650px;
+  width: 100%;
+}
+.skills div {
+  display: inline-block;
+  margin: 10px 0px;
+}
+.skills .skill {
+  text-align: center;
+  width: 100%;
+}
+.skill div {
+  width: 70px;
+}
+.skills div span {
+  height: 15px;
+  display: inline-block;
+  width: 20px;
+  background: #000;
+  margin: 0px 10px;
+}
+.line {
+  padding: 0px 113px;
+  position: relative;
+  top: 602px;
+  font-size: 21px;
+}
+.line hr {
+  background-color: #fff;
+}
+.second {
+  width: 60%;
+  padding-left: 80px;
+  padding-top: 23px;
+}
+.second .child1 {
+  position: relative;
+}
+.second .child1 p {
+  font-size: 20px;
+}
+.second .child1::before {
+  content: "";
+  width: 8px;
+  display: inline-block;
+  position: absolute;
+  height: 183px;
+  background-color: #fdcd;
+  left: -39px;
+  border-radius: 13px;
+}
+.second .child2 {
+  margin-top: 72px;
+  position: relative;
+}
+
+.second .child2 ul {
+  list-style-type: none;
+  margin-left: -37px;
+  font-size: 22px;
+}
+li span {
+  font-size: 21px;
+  color: #85581c;
+  font-weight: 600;
+}
+.child3 {
+  margin-top: 72px;
+  position: relative;
+}
+.second .child2::before {
+  content: "";
+  width: 8px;
+  display: inline-block;
+  position: absolute;
+  height: 524px;
+  background-color: #fdcd;
+  left: -39px;
+  border-radius: 13px;
+}
+.child3 .education {
+  list-style-type: none;
+  margin-left: -37px;
+  font-size: 22px;
+}
+
+ul {
+  font-size: 22px;
+}
+.child3::before {
+  content: "";
+  width: 8px;
+  display: inline-block;
+  position: absolute;
+  height: 574px;
+  background-color: #fdcd;
+  left: -39px;
+  border-radius: 13px;
+}
+.child4 {
+  margin-top: 80px;
+  position: relative;
+}
+.child4::before {
+  content: "";
+  width: 8px;
+  display: inline-block;
+  position: absolute;
+  height: 480px;
+  background-color: #fdcd;
+  left: -39px;
+  border-radius: 13px;
+}
+dl {
+  font-size: 24px;
+}
+dl dt {
+  color: #85581c;
+  font-size: 22px;
+  font-weight: 600;
+}
+dl a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
